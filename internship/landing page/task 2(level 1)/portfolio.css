@@ -1,0 +1,83 @@
+body{
+     font-family: 'poppins', sans-serif;
+    background-color: #f9fbff;  
+    margin: 0;
+    color: #333;
+     
+}
+ 
+header{
+      background-color: #4c9aff; 
+      color: white;
+      padding: 40px 20px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+}
+
+.container{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+     flex-wrap: wrap;
+}
+
+.profile-pic{
+   width: 180px;
+   height: 180px;
+   border-radius: 10px;
+   border: 3px solid white;
+   object-fit: cover;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.info-section{
+    max-width: 400px;
+    text-align: left;
+}
+
+.btn{
+    background: white;
+    color: #4c9aff;
+    padding: 10px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn: hover{
+    background: #4c9aff;
+    color: white
+}
+
+.projects{
+     margin: 40px auto;
+     width: 85%;
+     max-width: 700px;
+     text-align: center;
+}
+
+.project-card{
+     background-color: white;
+     padding: 20px;
+     border-radius: 15px;
+     margin-bottom: 20px;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer{
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+}
+
+footer a{
+     color: white;
+     text-decoration: underline;
+}
+
+
+
+
+   
